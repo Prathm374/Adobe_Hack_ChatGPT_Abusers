@@ -1,0 +1,14 @@
+pdfplumber
+PyMuPDF
+pdf2image
+pytesseract
+langdetect
+langid
+deep-translator
+networkx
+spacy
+nltk
+pandas
+jsonlines
+paddleocr
+transformers
