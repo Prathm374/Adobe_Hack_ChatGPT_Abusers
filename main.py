@@ -323,7 +323,9 @@ def extract_pages_with_ocr(pdf_path):
 def main():
     input_dir = "./Challenge_1a/sample_dataset/pdfs"
     output_dir = "./Challenge_1a/sample_dataset/outputs"
-    timestamp = datetime.datetime.now(datetime.UTC).isoformat()
+    from datetime import timezone
+    timestamp = datetime.datetime.now(timezone.utc).isoformat()
+ 
 
     pdf_files = [f for f in os.listdir(input_dir) if f.lower().endswith(".pdf")]
 
